@@ -89,9 +89,7 @@ def main():
             display_error()
             continue
 
-        if is_input_valid(user_choice):
-            print("Valid input")
-        else:
+        if is_input_valid(user_choice) == False:
             display_error()
             continue
 
